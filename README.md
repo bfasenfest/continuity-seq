@@ -1,4 +1,4 @@
-# vseq2vseq
+# ContinuitySeq
 
 Variable length frame conditioning for infinite length video generation. Can be used to generate videos from text that continue from an existing video or image. It can also generate the initial image using a standard text-to-image model from huggingface. Developed in collaboration with [motexture](https://github.com/motexture) and based on [vseq2vseq](https://github.com/motexture/vseq2vseq).
 
