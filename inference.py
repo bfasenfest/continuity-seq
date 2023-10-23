@@ -455,7 +455,7 @@ if __name__ == "__main__":
     parser.add_argument("-VS", "--vae-scale", type=float, default=1.0, help="VAE scale factor")
     parser.add_argument("-VB", "--vae-batch-size", type=int, default=16, help="Batch size for VAE encoding/decoding to/from latents (higher values = faster inference, but more memory usage).")
     parser.add_argument("-s", "--num-steps", type=int, default=50, help="Number of diffusion steps to run per frame.")
-    parser.add_argument("-g", "--guidance-scale", type=float, default=14, help="Scale for guidance loss (higher values = more guidance, but possibly more artifacts).")
+    parser.add_argument("-g", "--guidance-scale", type=float, default=22, help="Scale for guidance loss (higher values = more guidance, but possibly more artifacts).")
     parser.add_argument("-IG", "--image-guidance-scale", type=float, default=7.5, help="Scale for guidance loss for 2d model (higher values = more guidance, but possibly more artifacts).")
     parser.add_argument("-f", "--fps", type=int, default=12, help="FPS of output video")
     parser.add_argument("-d", "--device", type=str, default="cuda", help="Device to run inference on (defaults to cuda).")
